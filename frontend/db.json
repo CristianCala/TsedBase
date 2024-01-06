@@ -1,0 +1,186 @@
+{
+  "register": [],
+  "login": [
+    {
+      "email": "samuelmedina265@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "samuelmedina265@gmail.com",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "completeData": [
+    {
+      "birthday": "2022-11-29",
+      "age": "",
+      "gener": "",
+      "placebourn": "",
+      "state": "",
+      "city": "",
+      "municipality": "",
+      "parish": "",
+      "id": "1234567",
+      "file_upload_id": "C:\\fakepath\\eth.png",
+      "numberPassport": "123456",
+      "dateEmition": "2022-11-29",
+      "dateExpire": "2022-11-29",
+      "file_upload_passaport": "C:\\fakepath\\ethCurrency.png",
+      "estatura": "1.70",
+      "peso": "40",
+      "tallaFranela": "s",
+      "tallaChaqueta": "s",
+      "tallaPantalon": "26",
+      "tallaChaqueta1": "",
+      "first": "si",
+      "second": "si",
+      "third": "si",
+      "fourth": "si",
+      "file_upload_vaccine": "C:\\fakepath\\logo-pagina.png",
+      "actividad": "karate",
+      "displina": "some",
+      "categoria": "colegial",
+      "nivel": "some",
+      "otraActividad": "",
+      "file_upload_info": "C:\\fakepath\\logo-pagina.png"
+    }
+  ],
+  "loginFacebook": [
+    {
+      "name": "Samuel Alejandro Medina Funes",
+      "email": "nsamsung01021@gmail.com",
+      "picture": {
+        "data": {
+          "height": 50,
+          "is_silhouette": false,
+          "url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1862494944095245&height=50&width=50&ext=1672334744&hash=AeQQIc93NX3n6PZdhAs",
+          "width": 50
+        }
+      },
+      "id": "1862494944095245",
+      "accessToken": "EAALd7Nd3mtoBAE8ii5bpIxoQMVZBUB0O3QojjUyhMpqKizOdp34RrdtGNXwoHzEVlU8ZCYQnKGKOTy7o55BOSH3ZBSvoH52tZAZAl7RROIZBt6zq6UorStp9IDZCEXngtKku1KkOcEzPA68oPZBIPxlWUTlBHoTzyU56NZBjPP6TwOlFtwxdq4MDtOaFk2dTyVzwaXZCpVUIBvK361YpwTF5d9",
+      "userID": "1862494944095245",
+      "expiresIn": 5657,
+      "signedRequest": "S9aYjjmS7giyRNkqW7OQkVipONOegXFMMnR0jhGMSMw.eyJ1c2VyX2lkIjoiMTg2MjQ5NDk0NDA5NTI0NSIsImNvZGUiOiJBUUFLaW9nRGxTRUM1cWF3S3hSckdXa0RQbVdKQWRNZFNnZlZJdU9QaUo2d1pRRUotZ1lFN0dBX1N3clVrc0FIUEpSLW5OZFlKRGdvWkJ1OUFFcy1VdVB6UFNmaTdsSkxGZDcxdjNXQzNhQWc4b0Z0YTFGS2pUZlU2d1VXTUNFT3dRUDBwSk5IQ2lOTGR5MEdYeXdjd2tzRDV2VEZ4M2J2MU90WWRvbnhWekg2cmd3a1hXMGdOWWFxNF9tYXJseUZ3dGhBWkNrQ0t1QUYxNUdqT0JhdTZsT21jRWo5cGhjR1hmNzZjVl9kRGRmNXF2NU5GLVJRelBkdGVoWkRzLVpwWlNUSzlUemNZOFljd0c3TG1jQmJac04zUDYxcU5tcG9IWU9ZaVFESHBFVWJHZjJ3clp1S0I4UFZ4aHZrQjJ6UVZzZWVianZwZXNSVHJmUVhIQWZETXBDMiIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2IiwiaXNzdWVkX2F0IjoxNjY5NzQyNzQzfQ",
+      "graphDomain": "facebook",
+      "data_access_expiration_time": 1677518743
+    }
+  ],
+  "loginGoogle": [
+    {
+      "picture": "https://lh3.googleusercontent.com/a/ALm5wu3w8FLFUyz-CD18UNt9pa_Ld1oos1nLJglxAIV8=s96-c",
+      "given_name": "Samuels",
+      "email": "samuelmedina265@gmail.com",
+      "family_name": "Medina",
+      "id": 1
+    }
+  ],
+  "forgotPassword": [
+    {
+      "email": "samuelmedina265@gmail.com",
+      "id": 1
+    }
+  ],
+  "forgotData": [
+    {
+      "phoneNumber": "4125035687",
+      "id": 1
+    },
+    {
+      "phoneNumber": "4125035686",
+      "id": 2
+    }
+  ],
+  "gestionNotificaciones": [],
+  "representanteDeportivo": [
+    {
+      "categoria": "colegial",
+      "cedulaRepresentante": "some",
+      "actividadDeportiva": "some",
+      "disciplina": "some",
+      "cedulaDelAtletaARepresentar": "some",
+      "id": 1
+    }
+  ],
+  "reporteAtletasPorDisciplinas": [
+    {
+      "actividad": "karate",
+      "disciplina": "some",
+      "registros": "10",
+      "orden": "Ascendente",
+      "id": 1
+    },
+    {
+      "actividad": "karate",
+      "disciplina": "some",
+      "registros": "20",
+      "orden": "CédulaAscendente",
+      "id": 2
+    }
+  ],
+  "reporteIndumentariaAtletas": [
+    {
+      "actividad": "karate",
+      "disciplina": "some",
+      "registros": "20",
+      "orden": "Descendente",
+      "id": 1
+    },
+    {
+      "actividad": "karate",
+      "disciplina": "some",
+      "registros": "50",
+      "orden": "Cédula",
+      "id": 2
+    }
+  ],
+  "estatusDeVigenciaPasaportesAtletas": [
+    {
+      "datecalendario": "2022-12-09",
+      "cedulaAtletaOCertificado": "",
+      "cedulaAtleta": "1234567",
+      "id": 1
+    }
+  ],
+  "estatusDeVigenciaPasaportesAtletasDisciplina": [
+    {
+      "datecalendario": "2022-12-09",
+      "actividad": "karate",
+      "disciplina": "some",
+      "registros": "30",
+      "orden": "DisciplinaDescendente",
+      "id": 1
+    }
+  ],
+  "requerimientoReporteAtletasRangoEdades": [
+    {
+      "rangoDeEdades": "10",
+      "registros": "50",
+      "orden": "CédulaDescendente",
+      "id": 1
+    },
+    {
+      "rangoDeEdades": "10",
+      "registros": "20",
+      "orden": "DisciplinaDescendente",
+      "id": 2
+    }
+  ],
+  "reporteAtletasVacunadosCovid19PorAtletas": [
+    {
+      "identification": "26747489",
+      "id": 1
+    }
+  ],
+  "reporteAtletasVacunadosCovid19PorDisciplina": [
+    {
+      "actividad": "karate",
+      "disciplina": "some",
+      "registros": "100",
+      "orden": "Cédula",
+      "id": 1
+    }
+  ]
+}

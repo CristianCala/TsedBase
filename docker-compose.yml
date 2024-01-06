@@ -1,0 +1,65 @@
+version: "3"
+
+services:
+
+  postgres:
+    image: postgres:9.6.1
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_HOST: ${POSTGRES_HOST}
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    networks:
+      - atletas_net
+    ports:
+      - "5432:5432"
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/usr/src/app
+    depends_on:
+      - postgres
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+    ports:
+      - "${NODE_PORT}:${NODE_PORT}"
+    env_file:
+      - .env
+    networks:
+      - atletas_net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend:/usr/src/app
+    environment:
+      NODE_ENV: ${FRONT_ENV}
+      NODE_PORT: ${FRONT_PORT}
+    ports:
+      - "${FRONT_PORT}:${FRONT_PORT}"
+    env_file:
+      - .env
+    networks:
+      - atletas_net
+
+  mailhog:
+    image: 'mailhog/mailhog:latest'
+    logging:
+      driver: 'none'  # disable saving logs
+    ports:
+      - 8025:8025
+      - 1025:1025
+    networks:
+      - atletas_net
+
+networks:
+  atletas_net:
+    driver: bridge

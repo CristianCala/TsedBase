@@ -1,0 +1,128 @@
+{
+  "role_id": 5,
+  "name": "Cristian",
+  "second_name": "Cala",
+  "last_name": "Rafael",
+  "second_last_name": "Sierra",
+  "email": "megacrisx1@gmail.com",
+  "phone": "+584124751551",
+  "password": "123456C",
+  "social_media": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Cristian"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/Cristian"
+    }
+  ]
+}
+
+/* for enpoint of register atlhete */
+
+{
+  "role_id": 5,
+  "name": "Felipe",
+  "second_name": "Hernandez",
+  "last_name": "José",
+  "second_last_name": "Gregorio",
+  "email": "felipe@gmail.com",
+  "phone": "+584124751552",
+  "password": "123456C",
+	"social_media": [
+			{
+				"name": "Twitter",
+				"url": "https://twitter.com/Felipe"
+			},
+			{
+				"name": "Facebook",
+				"url": "https://facebook.com/Felipe"
+			}
+		],
+  "birthdate": "1990-10-10",
+  "age": 30,
+  "gender": "male",
+  "birthplace": "Caracas",
+  "state": "Caracas",
+  "city": "Dt capital",
+  "municipality": "Libertador",
+  "parish": "No se",
+  "identification_number": "V27954106",
+  "img_identification": "img cedula",
+  "passport": "sadasdasdasdasdas",
+  "passport_issue_date": "2000-10-10",
+  "passport_expiration_date": "2025-10-10",
+  "img_passport": "imgpassport",
+	"vaccine": [
+    {
+      "type": "firts dosis",
+      "date_applied": "2023-10-10",
+      "img_vaccine": "url_img"
+    },
+    {
+      "type": "second dosis",
+      "date_applied": "2021-10-10",
+      "img_vaccine": "url_img"
+    }
+  ],
+  "birth_certificate_number": 10323223,
+  "img_birth_certificate": "img certificate"
+}
+
+/* for endpoint complete-data by id */
+
+{
+  "id": 1,
+  "img_profile": "img profile",
+  "birthdate": "1990-10-10",
+  "age": 23,
+  "gender": "male",
+  "birthplace": "Caracas",
+  "state": "Caracas",
+  "city": "Caracas",
+  "municipality": "Caracas",
+  "parish": "Caracas",
+  "identification_number": "V27954106",
+  "img_identification": "img cedula",
+  "passport": "sadasdasdasdasdasas3223",
+  "passport_issue_date": "2000-10-10",
+  "passport_expiration_date": "2025-10-10",
+  "img_passport": "img_passport",
+  "body_height": 1.65,
+  "body_weight": 50,
+  "flannel_size": "M",
+  "jacket_size": "L",
+  "pants_size": "M",
+  "shoe_size": 38,
+	"vaccine": [
+    {
+      "type": "Primera Dosis",
+      "date_applied": "2023-10-10",
+      "img_vaccine": "url_img_primera"
+    },
+    {
+      "type": "Segunda Dosis",
+      "date_applied": "2021-10-10",
+      "img_vaccine": "url_img_segunda"
+    }
+  ],
+  "activity": "Deporte",
+  "discipline": "Ajedrez",
+  "category": "Juvenil",
+  "level": "Maestro Internacional",
+  "other": "string",
+  "disability": "string"
+}
+
+/* create event */
+{
+  "id": [1,2],
+  "name": "Tomar Blue Label en España",
+  "departure_date": "2023-06-20",
+  "arrival_date": "2023-06-21",
+  "return_date": "2023-07-20",
+  "flight_number": "12312312wsd1",
+  "departure_country": "Caracas",
+  "destination_country": "España"
+}
