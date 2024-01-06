@@ -1,0 +1,19 @@
+# Tsed + Node + React + Docker
+
+Dockerized app for login and register users (still in development)
+
+## Cómo funciona?
+
+La app consta de 4 partes:
+
+**Frontend** (ReactJs)
+
+**Backend** (Tsed framework + NodeJs)
+
+**PostgresSql** (Database)
+
+**Mailhog** (Email server for development)
+
+**Docker** (Containerization)
+
+For development, we use Swagger to document the API and to test it
